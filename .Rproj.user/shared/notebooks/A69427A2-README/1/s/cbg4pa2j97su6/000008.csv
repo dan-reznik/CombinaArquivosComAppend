@@ -1,0 +1,6 @@
+"0","df <- tribble(~x,~y,~z,"
+"0","        ""dan"",51,1.73,"
+"0","        ""matheus"",26,1.76,"
+"0","        ""xxx"",40,2.01)"
+"0",""
+"0","1:100 %>% walk(~write_csv2(df,sprintf(""data/teste_%03d.csv"",.x)))"

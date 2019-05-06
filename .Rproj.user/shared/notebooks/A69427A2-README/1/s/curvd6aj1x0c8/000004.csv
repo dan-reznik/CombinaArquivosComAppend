@@ -1,0 +1,5 @@
+"0","fnames <- fs::dir_ls(""data"",regexp = ""teste_"")"
+"0",""
+"0","cabecalho <- read_lines(fnames[1])[1]"
+"0","file_comb <- ""teste_combinado.csv"""
+"0","write_lines(cabecalho, file_comb)"

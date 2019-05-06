@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1557180342131.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4226040204",
+    "id" : "7286E446",
+    "lastKnownWriteTime" : 1557180338,
+    "last_content_update" : 1557180338,
+    "path" : "~/Dropbox/Data Science/R Projects/append csv/data/teste_001.csv",
+    "project_path" : "data/teste_001.csv",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

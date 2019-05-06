@@ -1,0 +1,6 @@
+"0","append_body <- function(file_in, file_out) file_in %>%"
+"0","  read_lines %>%"
+"0","  tail(-1) %>% # remove cabeçalho"
+"0","  write_lines(file_out,append=T)"
+"0",""
+"0","fnames %>% walk(append_body,file_comb)"
