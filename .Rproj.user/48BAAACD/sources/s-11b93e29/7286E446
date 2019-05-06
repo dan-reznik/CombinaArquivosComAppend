@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "4226040204",
+    "hash" : "0",
     "id" : "7286E446",
-    "lastKnownWriteTime" : 1557180338,
-    "last_content_update" : 1557180338,
+    "lastKnownWriteTime" : 1557181010,
+    "last_content_update" : 1557181010,
     "path" : "~/Dropbox/Data Science/R Projects/append csv/data/teste_001.csv",
     "project_path" : "data/teste_001.csv",
     "properties" : {
+        "cursorPosition" : "0,0",
+        "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [

@@ -1,6 +1,6 @@
 ---
-title: "R Notebook"
-output: html_notebook
+title: "Combina varios arquivos com append"
+output: github_document
 ---
 
 ```{r}
@@ -28,6 +28,8 @@ cabecalho <- read_lines(fnames[1])[1]
 file_comb <- "teste_combinado.csv"
 write_lines(cabecalho, file_comb)
 ```
+
+Combina com append
 
 ```{r}
 append_body <- function(file_in, file_out) file_in %>%
