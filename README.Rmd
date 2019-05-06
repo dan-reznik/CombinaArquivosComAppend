@@ -3,9 +3,8 @@ title: "Combina varios arquivos com append"
 output: github_document
 ---
 
-```{r}
+```{r,message=F}
 library(tidyverse)
-library(stringi)
 ```
 
 Escreve 100 arquivos identicos
