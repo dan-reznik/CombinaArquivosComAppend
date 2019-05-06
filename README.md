@@ -16,7 +16,7 @@ df <- tribble(~x,~y,~z,
 1:100 %>% walk(~write_csv2(df,sprintf("data/teste_%03d.csv",.x)))
 ```
 
-Le primeiro arquivo para pegar cabecalho
+Obtem cabecalho do 1o arquivo e o escreve no arquivo combinado
 
 ``` r
 fnames <- fs::dir_ls("data",regexp = "teste_")
@@ -26,7 +26,7 @@ file_comb <- "teste_combinado.csv"
 write_lines(cabecalho, file_comb)
 ```
 
-Combina com append
+Concatena arquivos sem cabeçalho no arquivo combinado
 
 ``` r
 append_body <- function(file_in, file_out) file_in %>%
