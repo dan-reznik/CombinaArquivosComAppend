@@ -32,6 +32,7 @@ Concatena arquivos sem cabeçalho no arquivo combinado
 
 ```{r}
 append_body <- function(file_in, file_out) file_in %>%
+  # nota: verificar se precisa de encoding nao-UTF8
   read_lines %>%
   tail(-1) %>% # remove cabeçalho
   write_lines(file_out,append=T)
